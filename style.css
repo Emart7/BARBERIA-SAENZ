@@ -31,7 +31,7 @@ nav a {
 nav a:hover{
   color: #fffffe;
   text-decoration: underline;
-
+  cursor: pointer;
 }
 
 .productos {
@@ -116,4 +116,37 @@ form label, form legend{
 
 .checkbox{
   margin: 20px 0;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #a8a467;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover{
+  background: #b4ae56;
+  transform: scale(1.2);
+}
+
+table{
+  margin: 40px 40px;
+}
+
+thead{
+  background: #555555;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+td, th{
+  border: 1px solid #000000;
+  padding: 8px 15px;
 }
