@@ -1,3 +1,7 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 header {
   background-color: #a8a467;
   padding: 20px 0;
@@ -28,7 +32,7 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
   color: #fffffe;
   text-decoration: underline;
   cursor: pointer;
@@ -52,12 +56,12 @@ nav a:hover{
   border-radius: 10px;
 }
 
-.productos li:hover{
+.productos li:hover {
   border: solid;
   border-color: #b4ae56;
 }
 
-.productos li:active{
+.productos li:active {
   border-color: #1ca828;
 }
 
@@ -66,59 +70,60 @@ nav a:hover{
   font-weight: bold;
 }
 
-.productos li:hover h2{
+.productos li:hover h2 {
   font-size: 33px;
 }
 
-.producto-descripcion{
+.producto-descripcion {
   font-size: 18px;
 }
 
-.producto-precio{
+.producto-precio {
   font-size: 20px;
   font-weight: bold;
   margin-top: 10px;
 }
 
-footer{
+footer {
   text-align: center;
   background: url(../HTML5-y-CSS3-parte1/imagenes/bg.jpg);
   padding: 40px;
 }
 
-.copyright{
+.copyright {
   color: #ffffff;
   font-size: 13px;
   margin: 20px;
 }
 
-main{
+main {
   width: 940px;
   margin: 0 auto;
 }
 
-form{
+form {
   margin: 40px 0;
 }
 
-form label, form legend{
+form label,
+form legend {
   display: block;
   font-size: 20px;
   margin: 0 0 10px;
 }
 
-.input-padron{
+.input-padron {
   display: block;
   margin: 0 0 20px;
   padding: 10px 25px;
   width: 50%;
 }
 
-.checkbox{
+.checkbox {
   margin: 20px 0;
 }
 
-.enviar{
+.enviar {
   width: 40%;
   padding: 15px 0;
   font-size: 18px;
@@ -131,22 +136,59 @@ form label, form legend{
   cursor: pointer;
 }
 
-.enviar:hover{
+.enviar:hover {
   background: #b4ae56;
   transform: scale(1.2);
 }
 
-table{
+table {
   margin: 40px 40px;
 }
 
-thead{
+thead {
   background: #555555;
   color: #ffffff;
   font-weight: bold;
 }
 
-td, th{
+td,
+th {
   border: 1px solid #000000;
   padding: 8px 15px;
+}
+
+/* CSS para el home*/
+
+.banner {
+  width: 100%;
+  height: 400px;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.principal p {
+  margin: 0 0 1em;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style: italic;
+}
+
+.utensilios {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.imagenDiferenciales {
+  width: 60%;
 }
